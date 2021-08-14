@@ -13,7 +13,7 @@ const Tail = () =>{
 
   return(
     <React.Fragment>
-      <div className='content_palent'>
+      <div className='content_palent' id='target'>
         {contentChild.map((i) => (
           <button key={i} className={contentChild.includes('i') ? 'on' : 'off'} onClick={doAction(i)}></button>
         ))}
