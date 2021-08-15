@@ -4,7 +4,8 @@ body {
 }
 
 .content_palent {
-  background-color: darkcyan;
+  background-image: url(./48137369553_9130a18759_c.jpeg);
+  background-size: cover;
   width: 1200px;
   height: 800px;
 }
@@ -13,10 +14,12 @@ body {
   background-color: darkorange;
   width: 25%;
   height: 25%;
+  border: none;
 }
 
 .off {
-  background-color: darkorchid;
+  background-color: transparent;
   width: 25%;
   height: 25%;
+  border: none;
 }
